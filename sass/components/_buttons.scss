@@ -1,0 +1,69 @@
+
+
+
+.btn-1{ 
+    @include btn-size;
+    margin-bottom: 40px;
+    background-color: $colour-btn-1;
+    box-shadow: 0 0 7px $colour-btn-1,
+    0 0 10px $colour-btn-1,
+    0 0 21px $colour-btn-1,
+    0 0 42px rgb(85, 88, 247),
+    0 0 82px rgb(85, 101, 247),
+    0 0 92px rgb(85, 96, 247),
+    0 0 100px rgb(85, 88, 247),
+    0 0 120px rgb(85, 96, 247);
+}
+.btn-2{
+    @include btn-size;
+    margin-bottom: 40px;
+    background-color: $colour-btn-2;
+    box-shadow: 0 0 7px $colour-btn-2,
+    0 0 10px $colour-btn-2,
+    0 0 21px $colour-btn-2,
+    0 0 42px rgb(247, 100, 85),
+    0 0 82px rgb(247, 100, 85),
+    0 0 92px rgb(247, 100, 85),
+    0 0 100px rgb(247, 100, 85),
+    0 0 120px rgb(247, 100, 85);
+}
+.btn-3{
+    @include btn-size;
+    background-color: $colour-btn-3;
+    box-shadow: 0 0 7px $colour-btn-3,
+    0 0 10px $colour-btn-3,
+    0 0 21px $colour-btn-3,
+    0 0 42px rgb(199, 207, 85),
+    0 0 82px rgb(199, 207, 85),
+    0 0 92px rgb(199, 207, 85),
+    0 0 100px rgb(199, 207, 85),
+    0 0 120px rgb(199, 207, 85);
+}
+.btn-4{
+    @include btn-size;
+    margin-top: 40px;
+    background-color: $colour-btn-4;
+    box-shadow: 0 0 7px $colour-btn-4,
+    0 0 10px $colour-btn-4,
+    0 0 21px $colour-btn-4,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 100px #0fa,
+    0 0 120px #0fa;
+}
+.btn-5{
+    @include btn-size;
+    margin-top: 40px;
+    background-color: $colour-btn-5;
+    box-shadow: 
+    0 0 10px $colour-btn-5,
+    0 0 21px $colour-btn-5,
+    0 0 42px rgb(247, 100, 255),
+    0 0 82px rgb(247, 100, 255),
+    0 0 92px rgb(247, 100, 255),
+    0 0 100px rgb(247, 100, 168),
+    0 0 120px rgb(247, 100, 255);
+}
+
+

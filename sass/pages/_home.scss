@@ -1,0 +1,43 @@
+body{
+    background-color: $colour-primary;
+}
+
+.container{
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    &:active{
+
+    .btn-1{
+            transform-origin: 0% ;
+            transform: scale(1);
+            transform: rotate(-54deg) translate(-80px, 25px);
+            transition: transform  2s;
+    }
+    .btn-2{
+    
+        transform-origin: 100% ;
+        transform: scale(1);
+        transform: rotate(54deg) translate(25px,0px);
+        transition: transform 2s;
+        position:relative;
+    }
+    .btn-3{
+        transform-origin: 0% ;
+        transform: scale(1);
+        transform: rotate(54deg) translate(-200px, 75px);
+        transition: transform 2s;
+        position: relative;
+    }
+    .btn-4{
+        transform-origin: 100% ;
+        transform: scale(0);
+        transform: rotate(-54deg) translate(250px, 40px);
+        transition: transform 2s;
+        position: relative;
+        }
+    }
+}
